@@ -5,7 +5,7 @@ public class CaixaEletronico {
 
         if (saldo > valor) {
             saldo = valor - saldo;
-            System.out.println("Saque efetuado com sucesso");
+             System.out.println("Saque efetuado com sucesso");
         } else {
             System.out.println(saldo);
         }
